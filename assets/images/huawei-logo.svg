@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="hwGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#cf0a2c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e62e42;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Huawei bloom: 8 petals radiating from center -->
+  <g transform="translate(100,100)">
+    <!-- Petal 1 -->
+    <path d="M0,-16 C12,-60 18,-75 0,-85 C-18,-75 -12,-60 0,-16Z" fill="url(#hwGrad)" transform="rotate(0)"/>
+    <!-- Petal 2 -->
+    <path d="M0,-16 C12,-60 18,-75 0,-85 C-18,-75 -12,-60 0,-16Z" fill="url(#hwGrad)" transform="rotate(45)"/>
+    <!-- Petal 3 -->
+    <path d="M0,-16 C12,-60 18,-75 0,-85 C-18,-75 -12,-60 0,-16Z" fill="url(#hwGrad)" transform="rotate(90)"/>
+    <!-- Petal 4 -->
+    <path d="M0,-16 C12,-60 18,-75 0,-85 C-18,-75 -12,-60 0,-16Z" fill="url(#hwGrad)" transform="rotate(135)"/>
+    <!-- Petal 5 -->
+    <path d="M0,-16 C12,-60 18,-75 0,-85 C-18,-75 -12,-60 0,-16Z" fill="url(#hwGrad)" transform="rotate(180)"/>
+    <!-- Petal 6 -->
+    <path d="M0,-16 C12,-60 18,-75 0,-85 C-18,-75 -12,-60 0,-16Z" fill="url(#hwGrad)" transform="rotate(225)"/>
+    <!-- Petal 7 -->
+    <path d="M0,-16 C12,-60 18,-75 0,-85 C-18,-75 -12,-60 0,-16Z" fill="url(#hwGrad)" transform="rotate(270)"/>
+    <!-- Petal 8 -->
+    <path d="M0,-16 C12,-60 18,-75 0,-85 C-18,-75 -12,-60 0,-16Z" fill="url(#hwGrad)" transform="rotate(315)"/>
+    <!-- Center circle -->
+    <circle cx="0" cy="0" r="10" fill="#cf0a2c"/>
+  </g>
+</svg>
